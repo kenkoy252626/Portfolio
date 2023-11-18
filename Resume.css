@@ -1,0 +1,189 @@
+body {
+  margin: 100px;
+  padding: 0; 
+  background-color:rgb(0, 0, 0);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.border{
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  height: auto;
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+}
+
+/* TOP NAV */
+#Nav {
+ 
+  background-color: rgb(15, 11, 6);
+  position: fixed;
+  height: auto;
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+}
+
+#Nav ul {
+  display: flex;
+  justify-content: center;
+  list-style:none;
+  padding: 0;
+}
+
+#Nav li {
+  margin: 0px 50px;
+  font-size: 30px;
+}
+
+#Nav a {
+  text-decoration: none;
+  color:rgb(255, 243, 243);
+  
+}
+
+#Nav a:hover {
+  color: rgb(190, 49, 68);
+}
+/* ABOUT ME*/
+
+#AboutMe {
+  margin: 0%;
+  text-align: left;
+  }
+
+#AboutMe img{
+  margin-top: auto;
+  width: 8in;
+  height: 8in;
+  margin-left: 57%;
+}
+#Key{
+  margin-top: 2%;
+  margin-left: 0%
+  ;
+  margin-bottom: 2%;
+   font-size: 1in;
+   color:rgb(18, 127, 146);
+   font-weight: bold;
+}
+#Key2{
+  margin-top: 2%;
+  margin-bottom: 2%;
+   font-size: 0.4in;
+   color:rgb(250, 112, 112);
+   font-weight: bold;
+  }
+  #AboutMe p:hover{
+    color: aquamarine;
+  }
+  
+#AboutMe h1{
+  margin-right:48% ;
+ margin-top: auto;
+position:absolute;
+font-style:normal;
+font-size: 33px;
+color:rgb(245, 232, 199) ;
+}
+
+
+
+/* EDUCATION*/
+
+#Education {
+  margin-top: 10%;
+}
+
+#Education h3{
+  margin-top: auto;
+  font-size: 50px;
+  color: azure;
+}
+#Education h1{
+  color: rgb(179, 49, 56);
+  margin-top: 0%;
+}
+
+#Education h2{
+  color: rgb(253, 253, 253);
+  margin-top: auto;
+  font-size: 0.3in;
+ 
+}
+
+
+
+
+
+/*EXPERIENCE */
+
+
+
+
+/*SKILLS */
+#Skills{
+  margin-top: 10%;
+}
+#Skills h1{
+  margin: auto;
+font-size: 50px;
+color: azure;
+
+}
+#Skills li{
+  margin: auto;
+font-size: 50px;
+color: azure;
+
+}
+
+
+/*TECHNICALSKILLS */
+#TechinicalSkills{
+  margin-top: 10%;
+}
+#TechinicalSkills h1{
+
+  font-size: 50px;
+  color: azure;
+}
+
+#TechinicalSkills li{
+
+font-size: 30px;
+color: rgb(108, 16, 199);
+
+}
+
+#techinical{
+  width: 1in;
+  height: 1in;
+}
+.icon{
+  width: 1in;
+  height: 1in;
+}
+#TechinicalSkills li{
+  display: flex;
+ flex-direction: column;
+  list-style:none;
+  align-items: center;
+  padding: 0;
+}
+
+/*CONTACT */
+
+
+#Contact
+{
+  margin-top: 10%;
+}
+
+
+label{
+  color: aliceblue;
+  margin-top: 100%;
+}
+
